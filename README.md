@@ -16,3 +16,7 @@ Distribution invariant: alpha must descend from a finalized nightly receipt
 and is step 2 of the machine-required nightly → alpha → canary → beta chain.
 No stable/tag/registry/release/installer path may bypass it; authority is the
 release-train tests, not prose.
+
+Target `main` files are informational and never define latest. Clients start
+from the monotonic `openrappter-release-train/heads/alpha.json`, then verify its
+immutable receipt and exact target manifest commit.
