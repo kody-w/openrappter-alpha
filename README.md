@@ -20,3 +20,7 @@ release-train tests, not prose.
 Target `main` files are informational and never define latest. Clients start
 from the monotonic `openrappter-release-train/heads/alpha.json`, then verify its
 immutable receipt and exact target manifest commit.
+
+The worker consumes only finalized-sequence+1 and records an immutable
+`.ring/applied/<sequence>-<request-id>.json`; it never reads the removed
+single acknowledgement path.
