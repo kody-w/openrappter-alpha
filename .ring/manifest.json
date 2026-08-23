@@ -17,5 +17,6 @@
   "predecessor": "nightly",
   "status": "disabled",
   "reason": "No explicit nightly-to-alpha promotion receipt exists. This source snapshot is recorded but is not an alpha release.",
-  "receipt": null
+  "receipt": null,
+  "promotion_id": "adfd022545dce9ddea8eff1f533158cc59e0925802a3cc91e9a5b61266dda4c6"
 }
