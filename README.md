@@ -11,3 +11,8 @@ installable alpha artifact exists. `--ring alpha` must therefore fail closed.
 Train: `nightly -> alpha -> canary -> beta -> stable`.
 
 Validate with `node scripts/validate-manifest.mjs .ring/manifest.json alpha`.
+
+Distribution invariant: alpha must descend from a finalized nightly receipt
+and is step 2 of the machine-required nightly → alpha → canary → beta chain.
+No stable/tag/registry/release/installer path may bypass it; authority is the
+release-train tests, not prose.
