@@ -1,5 +1,9 @@
 # OpenRappter alpha ring
 
+<!-- rapp1:network-header:start -->
+[![RAPP/1](https://kody-w.github.io/rapp-hive-public/portfolio/badges/openrappter-alpha.svg)](https://github.com/kody-w/rapp-hive-public/blob/main/portfolio/repos/openrappter-alpha.md) · **New to RAPP?** [Start here: get your Brainstem →](https://github.com/kody-w/rapp-installer#start-here)
+<!-- rapp1:network-header:end -->
+
 Alpha is an **explicit early promotion** from a vetted nightly. It never follows
 a branch automatically. This repository is a maintained pointer, not a source
 copy: OpenRappter code remains in [`kody-w/openrappter`](https://github.com/kody-w/openrappter).
